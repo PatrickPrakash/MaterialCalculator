@@ -1,2 +1,3 @@
 # MaterialCalculator
-This JavaFx based Material Themed calculator designed using JFoenix Library
+This JavaFx based Material Themed Basic Calculator designed using JFoenix Library
+

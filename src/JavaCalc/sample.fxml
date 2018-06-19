@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaCalc.Controller">
+
+   <children>
+      <Pane layoutX="-3.0" layoutY="137.0" prefHeight="437.0" prefWidth="388.0">
+         <children>
+            <JFXButton fx:id="btnadd" buttonType="RAISED" layoutX="290.0" layoutY="48.0" onAction="#btnaddaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #3a80f2;" text="+" />
+            <JFXButton fx:id="btnthree" buttonType="RAISED" layoutX="199.0" layoutY="48.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="3" />
+            <JFXButton fx:id="btntwo" buttonType="RAISED" layoutX="106.0" layoutY="48.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="2" />
+            <JFXButton fx:id="btnfour" buttonType="RAISED" layoutX="18.0" layoutY="131.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="4" />
+            <JFXButton fx:id="btnsub" buttonType="RAISED" layoutX="292.0" layoutY="131.0" onAction="#btnsubaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #3a80f2;" text="-" />
+            <JFXButton fx:id="btnsix" buttonType="RAISED" layoutX="201.0" layoutY="131.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="6" />
+            <JFXButton fx:id="btnfive" buttonType="RAISED" layoutX="108.0" layoutY="131.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="5" />
+            <JFXButton fx:id="btnseven" buttonType="RAISED" layoutX="19.0" layoutY="212.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="7" />
+            <JFXButton fx:id="btnmul" buttonType="RAISED" layoutX="293.0" layoutY="212.0" onAction="#btnmulaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #3a80f2;" text="*" />
+            <JFXButton fx:id="btnnine" buttonType="RAISED" layoutX="202.0" layoutY="212.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="9" />
+            <JFXButton fx:id="btneight" buttonType="RAISED" layoutX="109.0" layoutY="212.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="8" />
+            <JFXButton fx:id="btnone" buttonType="RAISED" layoutX="16.0" layoutY="48.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="1" />
+            <JFXButton fx:id="btnzero" buttonType="RAISED" layoutX="21.0" layoutY="298.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="0" />
+            <JFXButton fx:id="btnequal" buttonType="RAISED" layoutX="109.0" layoutY="298.0" onAction="#btnequalaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="=" />
+            <JFXButton fx:id="btndivide" buttonType="RAISED" layoutX="293.0" layoutY="298.0" onAction="#btndivideaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #3a80f2;" text="/" />
+            <JFXButton fx:id="btnclr" buttonType="RAISED" layoutX="202.0" layoutY="298.0" onAction="#btnnumaction" prefHeight="67.0" prefWidth="79.0" style="-fx-background-color: #ffbc14;" text="C" />
+         </children></Pane>
+      <TextArea fx:id="resulttext" layoutX="13.0" layoutY="74.0" prefHeight="78.0" prefWidth="355.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
